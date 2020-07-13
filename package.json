@@ -1,5 +1,5 @@
 {
-  "name": "SunkyCQRS",
+  "name": "Cqrs-sample-nodejs",
   "description": "CQRS  and eventsourcing in Nodejs by Adewumi Sunkanmi ",
   "version": "0.1.0",
   "author": "Adewumi Sunkanmi",
