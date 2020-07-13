@@ -1,34 +1,17 @@
-# node-m-r
+# Cqrs-sample-nodejs
 
-Greg Young's simple CQRS example written using Node.js.
-[https://github.com/gregoryyoung/m-r](https://github.com/gregoryyoung/m-r).
+A complete and simple implementation of CQRS with Event Sourcing all in nodejs
+[https://github.com/Giftedcooperation/Cqrs-sample-nodejs](https://github.com/Giftedcooperation/Cqrs-sample-nodejs).
 
 ## Build
 
-``` bash
-  $ npm install
-  $ node src/application.js
+```
+   npm install
+   npm start
 ```
 
-## License
+This sample was created so that every nodejs developer can find a boostraped version of CQRS + EVENT SOURCING to help them understand the basic concept of it. Also, a lot of inbuilt node modules was used to get started easily for example the Aggregator is an Event Emmiter, to trigger event handlers and also Writable Stream Which is used by the eventstrore to replay the events to the current state,also the Report Aggregators are also writable streams so that the message bus can write newly emitted events to it and then handled by the concerned handlers. 
 
-The MIT License (MIT)
+## Licence
 
-Copyright (c) 2013 Jan Van Ryswyck
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Any developer has the authority to clone this repo for personal use but if any adjustment is to be made, he or she must be a cntributor to this project
