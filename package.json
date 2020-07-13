@@ -1,0 +1,18 @@
+{
+  "name": "SunkyCQRS",
+  "description": "CQRS  and eventsourcing in Nodejs by Adewumi Sunkanmi ",
+  "version": "0.1.0",
+  "author": "Adewumi Sunkanmi",
+  "engines": {
+    "node": "14.0"
+  },
+  "scripts": {
+    "start":"node ./src/application.js"
+  },
+  "dependencies": {
+    "eventemitter2": "*",
+    "lodash": "*",
+    "node-uuid": "*",
+    "either.js": "*"
+  }
+}
